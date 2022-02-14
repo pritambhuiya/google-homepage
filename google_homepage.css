@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 960px;
+  height: 960px;
+  margin: 0 auto;
+  font-family: sans-serif;
+  background-color: black;
+}
+
+main {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 3em;
+  padding-top: 10em;
+}
+
+.google-logo {
+  font-size: 90px;
+  font-weight: 400;
+  color: whitesmoke;
+}
+
+.search-bar {
+  width: 60%;
+  height: 5%;
+  background-color: whitesmoke;
+  border-radius: 2em;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.text-search {
+  display: flex;
+  column-gap: 1em;
+}
+
+.placeholder{
+  font-size: 1.1em;
+  color: rgba(0,0,0,0.7)
+}
+
+.plus-btn {
+  width: 6%;
+  height: 6%;
+  background-color: whitesmoke;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.plus-sign {
+  font-size: 2em;
+  padding-bottom: 0.2em;
+}
+
+.add-shortcut {
+  position: relative;
+  top: -2.5em;
+  font-size: 0.9em;
+  color: gray;
+}
+
+.placeholder:hover {
+  color: rgba(0,0,0,0.2)
+}
+
+img:hover {
+  width: 6%;
+}
+
+.plus-btn:hover
+{
+  border: 2px solid whitesmoke;
+  background-color: rgba(0,0,0,0.2);
+  color: whitesmoke;
+}
+
+.add-shortcut:hover {
+  color: whitesmoke;
+}
